@@ -12,10 +12,10 @@ const viewer = new PhotoSphereViewer({
   time_anim: false,
   markers: [
     {
-      id: 'marker1',
-      longitude: 0.78,
-      latitude: -0.22,
-      html: `<span class='description'>Supermercado Extra</span>
+      id: 'marker10',
+      longitude: -0.38,
+      latitude: 0.03,
+      html: `<span class='description'>FACULDADES<br>INTEGRADAS<br>RIO BRANCO</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
         color: 'white',
@@ -24,16 +24,34 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'lazer',
+      className: 'school',
+      // tooltip: {
+      //   content: '4min à pé | Lazer'
+      // }
+    },
+    {
+      id: 'marker1',
+      longitude: -0.26,
+      latitude: -0.28,
+      html: `<span class='description'>HIPERMERCADO EXTRA</span>
+             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'conv',
       // tooltip: {
       //   content: '4min à pé | Lazer'
       // }
     },
     {
       id: 'marker3',
-      longitude: -2.21,
-      latitude: -0.1,
-      html: `<span class='description'>Pão de Áçucar<br/> R. David Ben Gurion, S/N</span>
+      longitude: -0.85,
+      latitude: -0.04,
+      html: `<span class='description'>RODOVIA<br>DOS BANDEIRANTES</span>
               <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
         color: 'white',
@@ -42,17 +60,17 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'lazer',
+      className: 'road',
       // tooltip: {
       //   content: '3min à pé | Lazer'
       // }
     },
     {
-      id: 'marker5',
-      longitude: 1.66,
-      latitude: -0.34,
-      html: `<span class='description'>Largo do Taboão<br/>Futura estação de Metrô</span>
-             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      id: 'marker14',
+      longitude: -0.79,
+      latitude: 0.01,
+      html: `<span class='description'>SHOPPING<br>TIETÊ PLAZA</span>
+              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -60,16 +78,70 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'lazer',
+      className: 'conv',
       // tooltip: {
-      //   content: '6min à pé | Lazer'
+      //   content: '3min à pé | Lazer'
       // }
     },
     {
-      id: 'marker6',
-      longitude: -2.12,
-      latitude: 0.06,
-      html: `<span class='description'>Praça <br/>Vinícius de Morais</span>
+      id: 'marker16',
+      longitude: -0.74,
+      latitude: -0.01,
+      html: `<span class='description'>LEROY MERLIN</span>
+              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'conv',
+      // tooltip: {
+      //   content: '3min à pé | Lazer'
+      // }
+    },
+    {
+      id: 'marker17',
+      longitude: -0.64,
+      latitude: -0.08,
+      html: `<span class='description'>MAKRO</span>
+              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'conv',
+      // tooltip: {
+      //   content: '3min à pé | Lazer'
+      // }
+    },
+    {
+      id: 'marker18',
+      longitude: -0.66,
+      latitude: -0.04,
+      html: `<span class='description'>TELHANORTE</span>
+              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'conv',
+      // tooltip: {
+      //   content: '3min à pé | Lazer'
+      // }
+    },
+    {
+      id: 'marker5',
+      longitude: 1.24,
+      latitude: -0.05,
+      html: `<span class='description'>PADARIA LETÍCIA</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
         color: 'white',
@@ -80,14 +152,14 @@ const viewer = new PhotoSphereViewer({
       },
       className: 'conv',
       // tooltip: {
-      //   content: '13min de bike | Conveniência'
+      //   content: '6min à pé | Lazer'
       // }
     },
     {
-      id: 'marker7',
-      longitude: 2.5,
-      latitude: -0.52,
-      html: `<span class='description'>Av. Francisco Morato</span>
+      id: 'marker25',
+      longitude: 1.34,
+      latitude: 0.08,
+      html: `<span class='description'>PARQUE VILLA LOBOS</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
         color: 'white',
@@ -96,16 +168,70 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'health',
+      className: 'conv',
       // tooltip: {
-      //   content: '14min de bike | Qualidade de Vida'
+      //   content: '6min à pé | Lazer'
+      // }
+    },
+    {
+      id: 'marker26',
+      longitude: 1.44,
+      latitude: 0.04,
+      html: `<span class='description'>SHOPPING VILLA LOBOS</span>
+             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'conv',
+      // tooltip: {
+      //   content: '6min à pé | Lazer'
+      // }
+    },
+    {
+      id: 'marker27',
+      longitude: 1.58,
+      latitude: 0.06,
+      html: `<span class='description'>CIDADE UNIVERSITÁRIA USP</span>
+             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'school',
+      // tooltip: {
+      //   content: '6min à pé | Lazer'
+      // }
+    },
+    {
+      id: 'marker6',
+      longitude: -0.98,
+      latitude: -0.12,
+      html: `<span class='description'>VIA ANHANGUERA</span>
+             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'road',
+      // tooltip: {
+      //   content: '13min de bike | Conveniência'
       // }
     },
     {
       id: 'marker9',
       longitude: -1.36,
-      latitude: -0.08,
-      html: `<span class='description'>Shopping<br/> Portal do Morumbi</span>
+      latitude: -0.46,
+      html: `<span class='description'>MARGINAL TIETÊ</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
         color: 'white',
@@ -114,16 +240,16 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'health',
+      className: 'road',
       // tooltip: {
       //   content: '30min de bike | Qualidade de Vida'
       // }
     },
     {
       id: 'marker11',
-      longitude: 1.12,
-      latitude: 0.02,
-      html: `<span class='description'>Shopping Taboão</span>
+      longitude: 0.15,
+      latitude: 0.04,
+      html: `<span class='description'>SHOPPING WEST PLAZA</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
         color: 'white',
@@ -138,10 +264,10 @@ const viewer = new PhotoSphereViewer({
       // }
     },
     {
-      id: 'marker12',
-      longitude: 1.23,
-      latitude: -0.24,
-      html: `<span class='description'>Rodovia Régis Bittencourt</span>
+      id: 'marker21',
+      longitude: 0.19,
+      latitude: 0.01,
+      html: `<span class='description'>SESC POMPEIA</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
         color: 'white',
@@ -150,16 +276,52 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'lazer',
+      className: 'school',
+      // tooltip: {
+      //   content: '36min de bike | Conveniência'
+      // }
+    },
+    {
+      id: 'marker22',
+      longitude: 0.26,
+      latitude: -0.02,
+      html: `<span class='description'>COLÉGIO SANTO IVO</span>
+             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'school',
+      // tooltip: {
+      //   content: '36min de bike | Conveniência'
+      // }
+    },
+    {
+      id: 'marker12',
+      longitude: -3.72,
+      latitude: -0.04,
+      html: `<span class='description'>AVENIDA MOFARREJ</span>
+             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'road',
       // tooltip: {
       //   content: '6min à pé | Lazer'
       // }
     },
     {
       id: 'static6',
-      longitude: -2.32,
-      latitude: 0.03,
-      html: `<span class='description'>Estádio<br/>Morumbi</span>
+      longitude: -3.60,
+      latitude: 0.01,
+      html: `<span class='description'>MARGINAL PINHEIROS</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
         color: 'white',
@@ -168,16 +330,16 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'health',
+      className: 'road',
       // tooltip: {
       //   content: '9min à pé | Qualidade de Vida'
       // }
     },
     {
       id: 'static10',
-      longitude: -1.77,
-      latitude: -0.02,
-      html: `<span class='description'>Colégio <br/>N. Sra. do Morumbi</span>
+      longitude: -1.94,
+      latitude: 0.09,
+      html: `<span class='description'>PICO DO JARAGUÁ</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
         color: 'white',
@@ -186,16 +348,16 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'health',
+      className: 'conv',
       // tooltip: {
       //   content: '19min de bike | Qualidade de Vida'
       // }
     },
     {
       id: 'static11',
-      longitude: -0.76,
+      longitude: -3.98,
       latitude: -0.08,
-      html: `<span class='description'>Colégio Anglo Morumbi</span>
+      html: `<span class='description'>COLÉGIO VERA CRUZ</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
         color: 'white',
@@ -204,11 +366,29 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'health',
+      className: 'school',
       // tooltip: {
       //   content: '24min de bike | Qualidade de Vida'
       // }
     },
+    {
+      id: 'static12',
+      longitude: -4.24,
+      latitude: -0.11,
+      html: `<span class='description'>ST. MARCHE</span>
+             <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
+      style: {
+        color: 'white',
+        fontFamily: 'Roboto, sans-serif',
+        borderRadius: '5px',
+        padding: '10px',
+        textAlign: 'center'
+      },
+      className: 'conv',
+      // tooltip: {
+      //   content: '24min de bike | Qualidade de Vida'
+      // }
+    }
   ]
 });
 
