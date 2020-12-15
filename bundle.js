@@ -347,7 +347,7 @@ const viewer = new PhotoSphereViewer({
         fontFamily: 'Roboto, sans-serif',
         borderRadius: '5px',
         padding: '10px',
-        textAlign: 'center'
+        textAlign: 'center',
       },
       className: 'school',
       // tooltip: {
